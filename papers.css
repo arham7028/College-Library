@@ -1,0 +1,143 @@
+body {
+  background-color: aliceblue;
+}
+
+.nav ul li a:hover {
+  color: red;
+}
+a {
+  text-decoration: none;
+  color: rgb(241, 243, 245);
+}
+span {
+  color: #ea1538;
+}
+#logo {
+  height: 50px;
+  position: absolute;
+  display: flex;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+ul {
+  padding-left: 185px;
+}
+li {
+  padding: 18px;
+}
+
+/* fieldset */
+#batch fieldset {
+  width: 35%;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-top: 85px;
+  background-size: 600px;
+}
+#batch {
+  padding: 10px;
+  margin-left: 16px;
+}
+button {
+  margin: 24px;
+  width: 70px;
+  height: 25px;
+  border-radius: 10px 5px;
+  color: rgb(11, 35, 35);
+  background-color: aquamarine;
+  z-index: 1;
+}
+#batch h2 {
+  margin-left: 84px;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+  /* background-color: rgb(11, 36, 81); */
+  border-radius: 5px 5px;
+  border-color: aqua;
+}
+#note h2 {
+  margin-left: 145px;
+}
+#note fieldset {
+  width: 35%;
+  overflow: hidden;
+  margin-left: 650px;
+  margin-top: -400px;
+  background-size: 600px;
+}
+#syllabus fieldset {
+  width: 35%;
+  overflow: hidden;
+  margin-left: 350px;
+  margin-top: 85px;
+  margin-bottom: 25px;
+  background-size: 600px;
+}
+#syllabus h2 {
+  margin-left: 145px;
+}
+/* #about{
+   border: 2px solid black;
+   background-color: black;
+   /* width: 100%;
+   height: 100%; */
+
+/* .main{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    
+}
+h3{
+    padding-right: 270px;
+    margin-top: 70px;
+    margin-right: 19px;
+    
+} */
+/*about*/
+#info {
+  background-color: rgb(30, 28, 28);
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  margin: -8px;
+}
+#info h3 {
+  text-decoration: underline;
+}
+#contact h3 {
+  margin-left: 200px;
+}
+
+/* .main hr{
+    width: 60%;
+    margin-left:57px;
+    margin-top: -10px;
+} */
+.main ul {
+  list-style: none;
+}
+.use {
+  margin-left: 70px;
+  color: #ea1538;
+}
+.ful {
+  margin-left: 38px;
+}
+#usl {
+  margin-left: 55px;
+}
+#contact {
+  margin-left: 70px;
+}
+#foot {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(30, 28, 28);
+  color: aliceblue;
+  margin: -8px;
+}
